@@ -1,0 +1,41 @@
+{
+  "displayName": "HomeWizard Energy API",
+  "name": "homewizard-energy-api",
+  "version": "1.6.1",
+  "description": "Typesafe Node implementation of the HomeWizard Energy API",
+  "license": "MIT",
+  "author": {
+    "name": "Jordy van den Aardweg",
+    "url": "https://github.com/jvandenaardweg"
+  },
+  "homepage": "https://github.com/jvandenaardweg/homewizard-energy-api#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jvandenaardweg/homewizard-energy-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jvandenaardweg/homewizard-energy-api/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "homewizard",
+    "homewizard-energy",
+    "homewizard energy",
+    "homewizard-energy-socket",
+    "homewizard energy socket",
+    "homewizard-api",
+    "homewizard api",
+    "homewizard-energy-api",
+    "homewizard energy api"
+  ],
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "multicast-dns": "^7.2.5",
+    "undici": "^5.22.1",
+    "ws": "^8.23.0"
+  }
+}
